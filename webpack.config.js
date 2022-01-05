@@ -1,6 +1,5 @@
 const GasPlugin = require('gas-webpack-plugin');
 module.exports = {
-  mode: 'production',
   context: __dirname,
   entry: './src/index.ts',
   module: {
